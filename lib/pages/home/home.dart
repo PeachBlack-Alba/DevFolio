@@ -15,6 +15,13 @@ import 'package:web_portfolio/utils/constants.dart';
 import 'package:web_portfolio/utils/globals.dart';
 
 import 'components/carousel.dart';
+import 'components/cv_section.dart';
+import 'components/education_section.dart';
+import 'components/header.dart';
+import 'components/ios_app_ad.dart';
+import 'components/portfolio_stats.dart';
+import 'components/skill_section.dart';
+import 'components/website_ad.dart';
 
 class Home extends StatelessWidget {
   @override

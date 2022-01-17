@@ -1,9 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:dev_folio/utils/constants.dart';
+import 'package:dev_folio/utils/screen_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
-import 'package:web_portfolio/pages/home/components/carousel_items.dart';
-import 'package:web_portfolio/utils/constants.dart';
-import 'package:web_portfolio/utils/screen_helper.dart';
+
+import 'carousel_items.dart';
+
 
 class Carousel extends StatelessWidget {
   final CarouselController carouselController = CarouselController();

@@ -1,26 +1,17 @@
+import 'package:dev_folio/utils/constants.dart';
+import 'package:dev_folio/utils/globals.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:web_portfolio/pages/home/components/carousel.dart';
-import 'package:web_portfolio/pages/home/components/cv_section.dart';
-import 'package:web_portfolio/pages/home/components/education_section.dart';
-import 'package:web_portfolio/pages/home/components/footer.dart';
-import 'package:web_portfolio/pages/home/components/header.dart';
-import 'package:web_portfolio/pages/home/components/ios_app_ad.dart';
-import 'package:web_portfolio/pages/home/components/portfolio_stats.dart';
-import 'package:web_portfolio/pages/home/components/skill_section.dart';
-import 'package:web_portfolio/pages/home/components/sponsors.dart';
-import 'package:web_portfolio/pages/home/components/testimonial_widget.dart';
-import 'package:web_portfolio/pages/home/components/website_ad.dart';
-import 'package:web_portfolio/utils/constants.dart';
-import 'package:web_portfolio/utils/globals.dart';
-
 import 'components/carousel.dart';
 import 'components/cv_section.dart';
 import 'components/education_section.dart';
+import 'components/footer.dart';
 import 'components/header.dart';
 import 'components/ios_app_ad.dart';
 import 'components/portfolio_stats.dart';
 import 'components/skill_section.dart';
+import 'components/sponsors.dart';
+import 'components/testimonial_widget.dart';
 import 'components/website_ad.dart';
 
 class Home extends StatelessWidget {
@@ -39,34 +30,34 @@ class Home extends StatelessWidget {
               itemBuilder: (BuildContext context, int index) {
                 return topBarItems[index].isButton
                     ? MouseRegion(
-                  cursor: SystemMouseCursors.click,
-                  child: Container(
-                    decoration: BoxDecoration(
-                      color: DangerColor,
-                      borderRadius: BorderRadius.circular(8.0),
-                    ),
-                    padding: EdgeInsets.symmetric(horizontal: 28.0),
-                    child: TextButton(
-                      onPressed: topBarItems[index].onTap,
-                      child: Text(
-                        topBarItems[index].title,
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 13.0,
-                          fontWeight: FontWeight.bold,
+                        cursor: SystemMouseCursors.click,
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: DangerColor,
+                            borderRadius: BorderRadius.circular(8.0),
+                          ),
+                          padding: EdgeInsets.symmetric(horizontal: 28.0),
+                          child: TextButton(
+                            onPressed: topBarItems[index].onTap,
+                            child: Text(
+                              topBarItems[index].title,
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 13.0,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
                         ),
-                      ),
-                    ),
-                  ),
-                )
+                      )
                     : ListTile(
-                  title: Text(
-                    topBarItems[index].title,
-                    style: TextStyle(
-                      color: Colors.white,
-                    ),
-                  ),
-                );
+                        title: Text(
+                          topBarItems[index].title,
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                      );
               },
               separatorBuilder: (BuildContext context, int index) {
                 return SizedBox(

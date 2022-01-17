@@ -1,9 +1,9 @@
+import 'package:dev_folio/utils/constants.dart';
+import 'package:dev_folio/utils/screen_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_framework/responsive_framework.dart';
-import 'package:web_portfolio/utils/constants.dart';
-import 'package:web_portfolio/utils/screen_helper.dart';
 
 class IosAppAd extends StatelessWidget {
   @override
@@ -29,12 +29,12 @@ class IosAppAd extends StatelessWidget {
               child: Flex(
                 direction: constraints.maxWidth > 720 ? Axis.horizontal : Axis.vertical,
                 children: [
-                  // Disable expanded on smaller screen to avoid Render errors by setting flex to 0
+                  // Disable expanded on smaller mobile screens to avoid Render errors by setting flex to 0
                   Expanded(
                     flex: constraints.maxWidth > 720.0 ? 1 : 0,
                     child: Image.asset(
                       "assets/ios.png",
-                      // Set width for image on smaller screen
+                      // width for image on smaller screen
                       width: constraints.maxWidth > 720.0 ? null : 350.0,
                     ),
                   ),

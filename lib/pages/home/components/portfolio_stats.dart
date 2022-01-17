@@ -1,9 +1,9 @@
+import 'package:dev_folio/models/stat.dart';
+import 'package:dev_folio/utils/constants.dart';
+import 'package:dev_folio/utils/screen_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_framework/responsive_framework.dart';
-import 'package:web_portfolio/models/stat.dart';
-import 'package:web_portfolio/utils/constants.dart';
-import 'package:web_portfolio/utils/screen_helper.dart';
 
 final List<Stat> stats = [
   Stat(count: "43", text: "Clients"),

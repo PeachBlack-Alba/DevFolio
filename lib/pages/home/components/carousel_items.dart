@@ -1,8 +1,8 @@
+import 'package:dev_folio/models/carousel_item_model.dart';
+import 'package:dev_folio/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:web_portfolio/models/carousel_item_model.dart';
-import 'package:web_portfolio/utils/constants.dart';
 
 List<CarouselItemModel> carouselItems = List.generate(
   5,
@@ -14,7 +14,7 @@ List<CarouselItemModel> carouselItems = List.generate(
         mainAxisSize: MainAxisSize.min,
         children: [
           Text(
-            "PRODUCT DESIGNER",
+            "SOFTWARE ENGINEER",
             style: GoogleFonts.oswald(
               color: PrimaryColor,
               fontWeight: FontWeight.w900,
@@ -25,7 +25,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             height: 18.0,
           ),
           Text(
-            "MICHELE\nHARRINGTON",
+            "Alba Torres Rodriguez",
             style: GoogleFonts.oswald(
               color: Colors.white,
               fontSize: 40.0,
@@ -37,7 +37,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             height: 10.0,
           ),
           Text(
-            "Full-stack developer, based in Barcelona",
+            "Software Engineer, from Barcelona based in Berlin.",
             style: TextStyle(
               color: CaptionColor,
               fontSize: 15.0,
@@ -63,7 +63,7 @@ List<CarouselItemModel> carouselItems = List.generate(
                   child: MouseRegion(
                     cursor: SystemMouseCursors.click,
                     child: Text(
-                      " Got a project? Let's talk.",
+                      "Got a project? Let's talk.",
                       style: TextStyle(
                         height: 1.5,
                         color: Colors.white,
@@ -106,8 +106,9 @@ List<CarouselItemModel> carouselItems = List.generate(
       ),
     ),
     image: Container(
+      height: 300,
       child: Image.asset(
-        "assets/person.png",
+        "albaRounded.png",
         fit: BoxFit.contain,
       ),
     ),

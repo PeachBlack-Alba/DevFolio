@@ -1,12 +1,12 @@
+import 'package:dev_folio/models/header_item.dart';
+import 'package:dev_folio/utils/constants.dart';
+import 'package:dev_folio/utils/globals.dart';
+import 'package:dev_folio/utils/screen_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_framework/responsive_framework.dart';
-import 'package:web_portfolio/models/header_item.dart';
-import 'package:web_portfolio/utils/constants.dart';
-import 'package:web_portfolio/utils/globals.dart';
-import 'package:web_portfolio/utils/screen_helper.dart';
 
 List<TopBarItem> topBarItems = [
   TopBarItem(
@@ -126,7 +126,7 @@ class Header extends StatelessWidget {
           padding: EdgeInsets.symmetric(vertical: 8.0),
           child: buildHeader(),
         ),
-        // We will make this in a bit
+        // TODO: finish this
         mobile: buildMobileHeader(),
         tablet: buildHeader(),
       ),
@@ -143,10 +143,10 @@ class Header extends StatelessWidget {
           children: [
             HeaderLogo(),
             // Restart server to make icons work
-            // Lets make a scaffold key and create a drawer
+            // make a scaffold key and create a drawer
             GestureDetector(
               onTap: () {
-                // Lets open drawer using global key
+                // open drawer using global key
                 Globals.scaffoldKey.currentState.openEndDrawer();
               },
               child: Icon(
@@ -161,7 +161,7 @@ class Header extends StatelessWidget {
     );
   }
 
-  // Lets plan for mobile and smaller width screens
+  // mobile and smaller width screens
   Widget buildHeader() {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 16.0),

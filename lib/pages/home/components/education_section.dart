@@ -9,26 +9,26 @@ import 'package:responsive_framework/responsive_framework.dart';
 final List<Education> educationList = [
   Education(
     description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     linkName: "www.flutterpanda.com",
     period: "2019 - PRESENT",
   ),
   Education(
     description:
-        "This is a sample education and details about it is stated below.This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2018 - 2019",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    linkName: "www.web.com",
+    period: "2019 - 2022",
   ),
   Education(
     description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2017 - 2018",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    linkName: "www.web.com",
+    period: "2017 - 2019",
   ),
   Education(
     description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    linkName: "www.web.com",
     period: "2016 - 2017",
   ),
 ];

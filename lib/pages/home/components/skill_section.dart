@@ -8,22 +8,22 @@ import 'package:responsive_framework/responsive_framework.dart';
 List<Skill> skills = [
   Skill(
     skill: "Dart",
-    percentage: 62,
+    percentage: 90,
   ),
   Skill(
     skill: "Javascript",
     percentage: 80,
   ),
   Skill(
-    skill: "PHP",
-    percentage: 78,
+    skill: "Testing",
+    percentage: 70,
   ),
   Skill(
     skill: "Python",
-    percentage: 90,
+    percentage: 40,
   ),
   Skill(
-    skill: "GoLang",
+    skill: "NodeJS",
     percentage: 40,
   ),
 ];

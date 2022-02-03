@@ -8,17 +8,17 @@ import 'package:responsive_framework/responsive_framework.dart';
 final List<Testimonial> testimonials = [
   Testimonial(
     text:
-        "This is a testimonial text from Janny Stone. Michele is a professional at what he does and never ceases to amaze me with his beautiful works. I will like to work with him in the future again.",
-    occupation: "Product Designer",
-    personName: "JANNY STONE",
-    profilePhoto: "assets/female.png",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    occupation: "Project Manager}",
+    personName: "RANDOM",
+    profilePhoto: "female.png",
   ),
   Testimonial(
     text:
-        "This is a testimonial text from Ken Williams. Michele is a professional at what he does and never ceases to amaze me with his beautiful works. I will like to work with him in the future again.",
-    occupation: "Art Director",
-    personName: "KEN WILLIAMS",
-    profilePhoto: "assets/male.png",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    occupation: "CEO",
+    personName: "RANDOM",
+    profilePhoto: "male.png",
   )
 ];
 
@@ -64,20 +64,14 @@ Widget _buildUi(double width) {
                   text: TextSpan(
                     children: [
                       TextSpan(
-                        text: "This is the portfolio section. There is alot of work here",
+                        text: "Testimonials here put text",
                         style: TextStyle(color: Colors.white, height: 1.8),
                       ),
-                      TextSpan(
-                          text: " click here to contact us",
-                          style: TextStyle(
-                            color: PrimaryColor,
-                            fontWeight: FontWeight.w700,
-                            height: 1.8,
-                          )),
-                      TextSpan(
+
+                      /* TextSpan(
                         text: ". Please subscribe to me youtube channel :-)",
                         style: TextStyle(color: Colors.white, height: 1.8),
-                      ),
+                      ),*/
                     ],
                   ),
                 ),

@@ -81,16 +81,12 @@ class Home extends StatelessWidget {
               SizedBox(
                 height: 20.0,
               ),
-              CvSection(),
+              // CvSection(),
               IosAppAd(),
               SizedBox(
                 height: 70.0,
               ),
               WebsiteAd(),
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 28.0),
-                child: PortfolioStats(),
-              ),
               SizedBox(
                 height: 50.0,
               ),
@@ -102,7 +98,6 @@ class Home extends StatelessWidget {
               SizedBox(
                 height: 50.0,
               ),
-              Sponsors(),
               SizedBox(
                 height: 50.0,
               ),

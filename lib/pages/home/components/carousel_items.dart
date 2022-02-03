@@ -108,7 +108,7 @@ List<CarouselItemModel> carouselItems = List.generate(
     image: Container(
       height: 300,
       child: Image.asset(
-        "albaRounded.png",
+        "albaRound.png",
         fit: BoxFit.contain,
       ),
     ),

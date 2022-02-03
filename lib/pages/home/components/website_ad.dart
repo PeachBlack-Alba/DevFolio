@@ -48,7 +48,7 @@ class WebsiteAd extends StatelessWidget {
                           height: 15.0,
                         ),
                         Text(
-                          "EVOLVING NAGA\nRESORT WEBSITE",
+                          "Software Engineer",
                           style: GoogleFonts.oswald(
                             color: Colors.white,
                             fontWeight: FontWeight.w900,
@@ -60,7 +60,7 @@ class WebsiteAd extends StatelessWidget {
                           height: 10.0,
                         ),
                         Text(
-                          "This is a random text about the project, I should have used the regular lorem ipsum text, but I am too lazy to search for that. This should be long enough",
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
                           style: TextStyle(
                             color: CaptionColor,
                             height: 1.5,
@@ -87,7 +87,7 @@ class WebsiteAd extends StatelessWidget {
                                   onPressed: () {},
                                   child: Center(
                                     child: Text(
-                                      "EXPLORE MORE",
+                                      "HIRE ME",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 13.0,
@@ -141,7 +141,7 @@ class WebsiteAd extends StatelessWidget {
                   Expanded(
                     flex: constraints.maxWidth > 720.0 ? 1 : 0,
                     child: Image.asset(
-                      "assets/laptop.png",
+                      "laptopRound.png",
                       // Set width for image on smaller screen
                       width: constraints.maxWidth > 720.0 ? null : 350.0,
                     ),

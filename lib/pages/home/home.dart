@@ -3,14 +3,14 @@ import 'package:dev_folio/utils/globals.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'components/carousel.dart';
-import 'components/cv_section.dart';
+//import 'components/cv_section.dart';
 import 'components/education_section.dart';
 import 'components/footer.dart';
 import 'components/header.dart';
 import 'components/ios_app_ad.dart';
-import 'components/portfolio_stats.dart';
+//import 'components/portfolio_stats.dart';
 import 'components/skill_section.dart';
-import 'components/sponsors.dart';
+//import 'components/sponsors.dart';
 import 'components/testimonial_widget.dart';
 import 'components/website_ad.dart';
 
